@@ -112,7 +112,7 @@ SourceTreeItem::SourceTreeItem(SourceTree *tree_, OBSSceneItem sceneitem_)
 	boxLayout->setContentsMargins(0, 0, 0, 0);
 	if (iconLabel) {
 		boxLayout->addWidget(iconLabel);
-		boxLayout->addSpacing(2);
+		boxLayout->addSpacing(0);
 	}
 	boxLayout->addWidget(label);
 	boxLayout->addWidget(vis);
